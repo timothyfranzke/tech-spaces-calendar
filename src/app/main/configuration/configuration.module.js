@@ -6,8 +6,8 @@
     .module('app.configuration',[])
     .constant('config', {
       api:{
-        //baseUrl: 'https://k-spaces-api.herokuapp.com/api',
-        baseUrl: 'http://localhost:3008/api',
+        baseUrl: 'https://k-spaces-api.herokuapp.com/api',
+        //baseUrl: 'http://localhost:3008/api',
         user:'/user',
         userGroup:'/user',
         entities: '/entity',
@@ -24,15 +24,15 @@
         }
       },
       securityApi: {
-        //baseUrl: 'https://tech-spaces-security.herokuapp.com',
-        baseUrl: 'http://localhost:3009',
+        baseUrl: 'https://tech-spaces-security.herokuapp.com',
+        //baseUrl: 'http://localhost:3009',
         token: '/token',
         login: '/login',
         applicationRedirect: '/application-redirect'
       },
       authentication:{
-        //baseUrl: 'https://k-spaces-authentication.herokuapp.com/pages/auth',
-        baseUrl: 'http://localhost:3000/pages/auth',
+        baseUrl: 'https://k-spaces-authentication.herokuapp.com/pages/auth',
+        //baseUrl: 'http://localhost:3000/pages/auth',
         login: '/login',
         register: '/register'
       },
