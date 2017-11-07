@@ -10,8 +10,8 @@
   function RedirectController($stateParams, $state, api)
   {
     var vm = this;
-
-    if(!!localStorage.getItem('token')){
+    var token = localStorage.getItem('token');
+    if(token !== undefined && token !== null){
       $state.go ('app.calendar');
     }
     else {
